@@ -1,0 +1,23 @@
+Asla ICSP kullanýrken Test ve Kalibrasyon yapmayýnýz.
+
+Kýlavuzda ayarlar hakkýnda detaylý bilgi verilmiþtir. 
+
+windows7 için çalýþtýrma:
+
+usb15rc2 yi masa üstüne kopyalayýn.
+Daha sonra programlama yapacakken
+usb15rc2.exe dosyasýna sað týklayýp özelliklere girin
+Uyumluluktan windowsXP ServicePack2 yi seçiniz
+Daha sonra gene özelliklerden yönetici olarak çalýþtýrý iþaretleyin
+Artýk win7 de pic programlayabilirsiniz.
+
+
+ICSP seklinde Programýný yüklediðiniz pic entegrelerinizde 
+config. hatasý olduðunda test calibrasyonla uðraþmadan
+entegreyi devrede kullanabilirsiniz.(Herhangi sorun yaþanmadý test edilmiþtir.)
+Fakat bu test ve kalibrasyon ayarýnýn gereksiz olduðu anlamýnada gelmez. 
+
+
+Bazen BlackPic bostayken pic16f84 entegresini gordugunu gosterir bunu 
+ICSP pinlerinden 3. ve 4. pinlari arasýna 10k .. 100k gibi bir direnç koyarak çözebiliriz
+Bu USburn arayuzunun kritik olmayan hatasýdýr. Fakat kullanýma hicbir zararý yoktur.

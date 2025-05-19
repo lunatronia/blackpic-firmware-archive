@@ -1,0 +1,25 @@
+++ACHTUNG++
+Die HEX-Files wurden mit der Student-Edition des C18-Compilers erstellt.
+
+
+Firmware für Brenner8 V 0.11 (18.10.2007)
+============================
+Diese Firmware entspricht der Firmware 0.10, wurde aber um die 12-Bit-PIC-Typen erweitert.
+Die Nutzung dieser Firmware erfordert zwingend mindestens- Database 14- USBurn 1.7a6
+
+
+
+Firmware für Brenner8 V 0.10 (19.08.2007)
+============================
+
+Das ist die Firmware für den Brenner8. Sie muß in den Steuerpic
+vom Typ PIC18F2550 gebrannt werden.
+
+Die Firmware erlaubt zusammen mit der Windowssoftware US-Burn V1.5 das Brennen von 14-Bit-Kern PICs der Serien PIC16Fxxx und PIC12Fxxx sowie von 16-Bit-Kern PICs der Serien PIC18F. Zusätzlich werden dsPIC30F-Typen via ICSP unterstützt.
+
+
+
+Um die Firmware in den SteuerPIC des Brenner8 zu bekommen, muss zunächst der Bootloader in den PIC gebrannt worden sein. Danach wird der PIC in den Brenner8 als SteuerPIC eingesetzt. Nun kann die Firmware mit US-Burn in den PIC nachgeladen werden, wärend der PIC als SteuerPIC im Brernner 8 sitzt.
+
+
+sprut

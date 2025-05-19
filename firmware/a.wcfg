@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Hakan/Desktop/bil513/Odev1/odev1_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="odev1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/odev1/d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/odev1/s0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s0</obj_property>
+      <obj_property name="ObjectShortName">s0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/odev1/s1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s1</obj_property>
+      <obj_property name="ObjectShortName">s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/odev1/e" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">e</obj_property>
+      <obj_property name="ObjectShortName">e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/odev1/y0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y0</obj_property>
+      <obj_property name="ObjectShortName">y0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/odev1/y1" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">y1</obj_property>
+      <obj_property name="ObjectShortName">y1</obj_property>
+      <obj_property name="label">y1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/odev1/y2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y2</obj_property>
+      <obj_property name="ObjectShortName">y2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/odev1/y3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y3</obj_property>
+      <obj_property name="ObjectShortName">y3</obj_property>
+   </wvobject>
+</wave_config>

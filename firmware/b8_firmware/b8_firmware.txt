@@ -1,0 +1,52 @@
+++ACHTUNG++
+Die HEX-Files wurden mit der Student-Edition des C18-Compilers erstellt.
+
+
+
+Firmware für Brenner8 V 0.8a (31.03.2007)
+============================
+
+Das ist die Firmware für den Brenner8. Sie muß in den Steuerpic
+vom Typ PIC18F2550 gebrannt werden.
+
+Die Firmware erlaubt zusammen mit der Windowssoftware US-Burn V1.5 das Brennen von 14-Bit-Kern PICs der Serien PIC16Fxxx und PIC12Fxxx sowie von 16-Bit-Kern PICs der Serien PIC18F. Zusätzlich werden dsPIC30F-Typen via ICSP unterstützt.
+
+Die Firmware liegt in zwei Versionen vor:
+
+
+
+b8_fw_08a.hex
+-------------
+Das ist die einfache Firmware ohne Bootloader. 
+Falls der Brenner8 schon den Bootloader 1.0 hat, kann dieser die Firmware in den SteuerPIC laden. Dazu wird dann USBurn V1.5 benötigt.
+Wer den Bootloader nicht mag, kann die Firmware auch mit einem beliebigen PIC-Brenner in den Steuerpic brennen
+Diese Firmware enthält eine Anpassung an Brenner8(P) Rev.4. Diese Brenner haben mit einigen PIC-Typen Probleme, wenn diese PICs im der on-board-Sockel gebrannt werden sollen. Betroffen sind insbesondere PIC16F87x.
+
+
+
+b8_fw08a_boot10_ee.hex
+----------------------
+Das ist die Kombination aus Firmware und Bootloader. Sie kann mit einem beliebigen Brenner in den SteuerPIC des Brenner8 geladen werden. 
+Der dabei installierte Bootloader kann für zukünftige Firmweare-Updates benutzt werden.
+Diese Files kann auch benutzt werden, wenn man schon einen Bootloader installiert hat. Mein Bootloader extrahier sich aus dem File die Firmware.
+
+
+
+bootloader_1_0.hex
+------------------
+Das ist der nackte Bootloader.
+Enige ältere Brenner haben Probleme rieseige File (wie z.B. b8_fw08a_boot10_ee.hex) fehlerfrei in einen PIC zu brennen. In diesem Fall brennt man nur den viel kleineren Bootloader, und nimmt den Brenner8 nur mit dem Bootloader in Betrieb. Mit US-Burn läßt sich dann später die Firmware (z.B. b8_fw_08a.hex) einfach nachladen.
+
+
+
+
+
+b8_fw_09.hex
+-------------
+Das ist die einfache Firmware ohne Bootloader. 
+Die Firmware 0.9 ist eine platzoptimierte Version der Fw 0.8. Sie ist mit der Fw 0.8 im wesentlichen funktionell identisch. Der einzige nutzbare Vorteil ist die Zuschaltung von 5V-Betriebsspannung zu über ICSP angeschlossenen Testplatinen (nur mit US-Burn ab V 1.5rc2). Viele andere Funktionen und Neuerungen sind zwar integriert, werden aber noch nicht genutzt.
+Ich bitte darum, diese Firmware einzusetzen, und eventiuell auftretende Probleme zu melden. Im Rahmen der Optimierung mußten große Teile des stabilen Codes neu geschrieben werden, Deshalb sind Bugs möglich, und ich benötige Euer Feedback, um die Fehler zu beheben.
+
+
+
+sprut
